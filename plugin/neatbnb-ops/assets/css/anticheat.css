@@ -1,0 +1,12 @@
+/* Quiz anti-cheat: make selection everywhere impossible. */
+* {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  -webkit-user-drag: none !important;
+}
+
+::selection {
+  background: transparent;
+}

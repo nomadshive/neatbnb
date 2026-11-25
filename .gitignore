@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Environment & secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
+id_*
+
+# Dependencies (none required today, but future builds may add them)
+node_modules/
+vendor/
+
+# Logs
+*.log
+
+# Local WordPress data from docker/stack
+docker/db_data/
+docker/wp_data/

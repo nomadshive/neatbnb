@@ -1,0 +1,40 @@
+/* Inline login widget styles (scoped to #loginContainer). */
+#loginContainer .login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#loginContainer .form-group {
+  margin-bottom: 15px;
+}
+
+#loginContainer .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#loginContainer .form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#loginContainer button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background: #0073aa;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#loginContainer button[type="submit"]:hover {
+  background: #005177;
+}
+
+#loginContainer input[type="checkbox"] {
+  margin-right: 5px;
+}

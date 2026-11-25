@@ -1,0 +1,12 @@
+/* GTranslate suppression styles (paired with notranslate.js). */
+#goog-gt-tt,
+.goog-te-banner-frame,
+.goog-te-menu-frame,
+.goog-te-combo,
+.gtranslate_wrapper {
+  display: none !important;
+}
+
+.notranslate {
+  user-select: none !important;
+}

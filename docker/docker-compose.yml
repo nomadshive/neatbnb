@@ -1,0 +1,42 @@
+# Local development stack
+#
+#   docker compose up -d
+#   wp core install ... (or open http://localhost:8080 and run the installer)
+#
+# The custom plugin and child theme are bind-mounted from this repo, so
+# edits are live. The Bellevue PARENT theme is NOT included (ThemeForest
+# Regular License) — copy your licensed copy into theme/bellevuex/ and it
+# will be mounted automatically.
+
+services:
+  wordpress:
+    image: wordpress:php8.3-apache
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wp
+      WORDPRESS_DB_PASSWORD: wp
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DEBUG: "1"
+    volumes:
+      - wp_data:/var/www/html
+      - ../plugin/neatbnb-ops:/var/www/html/wp-content/plugins/neatbnb-ops
+      - ../theme/bellevuex-child:/var/www/html/wp-content/themes/bellevuex-child
+      - ../theme/bellevuex:/var/www/html/wp-content/themes/bellevuex
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wp
+      MYSQL_PASSWORD: wp
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  wp_data:
+  db_data:

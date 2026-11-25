@@ -1,0 +1,64 @@
+plugin|advanced-custom-fields|unknown
+plugin|aio-time-clock-lite|unknown
+plugin|aloha-powerpack|unknown
+plugin|clear-cache-for-widgets|unknown
+plugin|coming-soon|unknown
+plugin|duplicate-page|unknown
+plugin|elementor|unknown
+plugin|elementskit-lite|unknown
+plugin|envato-market|unknown
+plugin|essential-addons-for-elementor-lite|unknown
+plugin|formidable-acf|unknown
+plugin|formidable-ai|unknown
+plugin|formidable-api|unknown
+plugin|formidable-chat|unknown
+plugin|formidable-googlespreadsheet|unknown
+plugin|formidable-logs|unknown
+plugin|formidable-paypal|unknown
+plugin|formidable-pdfs|unknown
+plugin|formidable-pro|unknown
+plugin|formidable-quizzes|unknown
+plugin|formidable-registration|unknown
+plugin|formidable-stripe|unknown
+plugin|formidable-user-tracking|unknown
+plugin|formidable-views|unknown
+plugin|formidable|unknown
+plugin|google-analytics-for-wordpress|unknown
+plugin|groovy-menu|unknown
+plugin|gtranslate|unknown
+plugin|header-footer-elementor|unknown
+plugin|insert-headers-and-footers|unknown
+plugin|jetpack|unknown
+plugin|jwt-authentication-for-wp-rest-api|unknown
+plugin|loco-translate|unknown
+plugin|masterslider|unknown
+plugin|members|unknown
+plugin|menu-by-user-roles|unknown
+plugin|motopress-hotel-booking-lite|unknown
+plugin|motopress-hotel-booking|unknown
+plugin|mphb-elementor|unknown
+plugin|mphb-request-payment|unknown
+plugin|mphb-reviews|unknown
+plugin|mphb-woocommerce|unknown
+plugin|peters-login-redirect|unknown
+plugin|revslider|unknown
+plugin|seo-by-rank-math|unknown
+plugin|simple-history|unknown
+plugin|ssg-security|unknown
+plugin|ultimate-member|unknown
+plugin|user-role-editor|unknown
+plugin|userfeedback-lite|unknown
+plugin|woocommerce-services|unknown
+plugin|wordfence|unknown
+plugin|wp-file-manager|unknown
+plugin|wp-mail-smtp|unknown
+plugin|wp-migrate-db|unknown
+plugin|wp-table-builder|unknown
+plugin|wp-whatsapp|unknown
+theme|bellevuex-child|        4.0
+theme|bellevuex|            4.2.4
+theme|twentytwentyfive| 1.0
+theme|twentytwentyfour| 1.0
+theme|twentytwentyone| 1.7
+theme|twentytwentythree| 1.0
+theme|twentytwentytwo| 1.3

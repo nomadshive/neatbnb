@@ -30,16 +30,32 @@ neatbnb/
 │   ├── sql/                  ← structure-only DB skeleton: roles, pages,
 │   │                           50 forms + views, menus, Elementor layouts
 │   └── import.sh             ← one-shot importer
-├── docker/docker-compose.yml ← local dev stack
+├── demo/
+│   ├── demo.sh               ← one-command demo stack (docs/demo.md)
+│   └── seed-entries.php      ← synthetic demo entries (no real data)
+├── docker/docker-compose.yml ← dev/demo stack (wp + db + wpcli)
 ├── docs/
 │   ├── architecture.md       ← the 3 systems, roles, data model, code map
 │   ├── installation.md       ← step-by-step setup
 │   ├── configuration.md      ← settings reference
+│   ├── demo.md               ← demo walkthrough + fork/rebrand guide
 │   └── security-and-privacy.md ← what's excluded and why
 └── LICENSE                   ← GPL-2.0-or-later
 ```
 
-## Quick start
+## Quick start — demo in one command
+
+```bash
+git clone https://github.com/YOUR-ACCOUNT/neatbnb.git
+cd neatbnb
+./demo/demo.sh                # → http://localhost:8080
+```
+
+Log in as `demo-host` / `demo1234` (or `demo-cleaner`, `admin` —
+same password) and click through the three systems. Full walkthrough,
+options and the fork/rebrand checklist: [docs/demo.md](docs/demo.md).
+
+## Quick start — manual install
 
 ```bash
 git clone https://github.com/YOUR-ACCOUNT/neatbnb.git
